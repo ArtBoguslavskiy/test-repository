@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <h6>Welcome to my website</h6>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a href="">Maiores</a> voluptatum deleniti rerum, laboriosam at laborum minus eos nobis esse possimus omnis placeat. Enim possimus facilis ipsam, ab assumenda omnis cumque.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit aspernatur nulla esse unde veniam, atque exercitationem omnis aut molestiae accusamus.</p>
-    <ul>
-        <li>
-            <a href="https://developer.mozilla.org/en-US/">Some url text</a>
-        </li>
-        <li>Second item</li>
-        <li>Third item</li>
-    </ul>
-    <a href="https://www.google.com/">
-        <img width="200" src="images/cat.jpg" alt="orange cat">
-    </a>
+    <h1 id="title-tomato">Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae voluptatum veritatis consequuntur numquam inventore itaque distinctio aut velit exercitationem accusantium?</p>
+    <h1 id="title-blue">Lorem</h1>
+
+    <form action="">
+        <label for="username" class="label">
+            User name: 
+            <input type="text" id="username" name="username">
+        </label>
+        <label for="password" class="label">
+            Password: 
+            <input type="password" id="password" name="password">
+        </label>
+        <label for="remember" class="label">
+            <input type="checkbox" name="remember" id="remember">
+            Remember me
+        </label>
+        <label for="watch" class="label">
+            <input type="checkbox" name="watch" id="watch">
+            Watch only
+        </label>
+        <button type="submit">Submit</button>
+    </form>
 
     <script src="scripts/script.js"></script>
 </body>
