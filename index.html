@@ -14,22 +14,53 @@
     <form action="">
         <label for="username" class="label">
             User name: 
-            <input type="text" id="username" name="username">
+            <input class="label__input" type="text" id="username" name="username">
         </label>
         <label for="password" class="label">
             Password: 
-            <input type="password" id="password" name="password">
+            <input class="label__input" type="password" id="password" name="password">
         </label>
         <label for="remember" class="label">
-            <input type="checkbox" name="remember" id="remember">
+            <input class="label__input" type="checkbox" name="remember" id="remember">
             Remember me
         </label>
         <label for="watch" class="label">
-            <input type="checkbox" name="watch" id="watch">
+            <input class="label__input label__input_wide" type="checkbox" name="watch" id="watch">
             Watch only
         </label>
         <button type="submit">Submit</button>
     </form>
+
+
+    <div class="shopping-item">
+        <img class="shopping-item__image" src="images/cat.jpg" alt="cat">
+        <p class="shopping-item__description">Some text</p>
+        <p class="shopping-item__price">Price: 3000$</p>
+        <button class="shopping-item__button-buy" type="button">Buy</button>
+    </div>
+    <div class="shopping-item">
+        <img class="shopping-item__image" src="images/cat.jpg" alt="cat">
+        <p class="shopping-item__description">Some text</p>
+        <p class="shopping-item__price">Price: 3000$</p>
+        <button class="shopping-item__button-buy" type="button">Buy</button>
+    </div>
+    <div class="shopping-item">
+        <img class="shopping-item__image" src="images/cat.jpg" alt="cat">
+        <p class="shopping-item__description">Some text</p>
+        <p class="shopping-item__price shopping-item__price--discount">Price: 1000$</p>
+        <button class="shopping-item__button-buy" type="button">Buy</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
     <script src="scripts/script.js"></script>
 </body>
